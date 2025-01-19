@@ -1,0 +1,41 @@
+.product-tab {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.product-tab h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.product-tab p {
+    font-size: 16px;
+    color: #666;
+}
+
+.product-tab .price {
+    font-size: 20px;
+    font-weight: bold;
+    color: #e60000;
+    margin-top: 10px;
+}
+
+.product-tab button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.product-tab button:hover {
+    background-color: #0056b3;
+}
